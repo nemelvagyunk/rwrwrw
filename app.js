@@ -5,7 +5,7 @@ const HERO_ALL       = ["UTG","HJ","CO","BU","SB","BB"];
 const VILLAIN_ALL    = ["UTG","HJ","CO","BU","SB","BB"];
 const ALL_OPEN_SIZES = [2, 2.5, 3, 3.5, 4, 5];
 const ALL_STACKS     = [100];
-const SEQ_MODES = ["faceiso", "vsopenlimp", "vsiso", "limp3b"];
+const SEQ_MODES = ["faceiso", "vsopenlimp", "vsiso", "vsisoOL", "limp3b"];
 
 const HERO_POS_BY_MODE = {
   open:      ["UTG","HJ","CO","BU","SB"],
@@ -19,6 +19,7 @@ const HERO_POS_BY_MODE = {
   faceiso:    ["UTG","HJ","CO","BU"],
   vsopenlimp: ["SB","BB","UTG","HJ","CO","BU"],
   vsiso:      ["UTG","HJ","CO","BU","SB","BB"],
+  vsisoOL:    ["UTG","HJ","CO","BU","SB","BB"],
   limp3b:     ["UTG","HJ","CO","BU","SB","BB"],
 };
 const VSOPENLIMP_VILLAINS = ["UTG","HJ","CO","BU"];
@@ -229,7 +230,7 @@ function renderMode(){
     }
   } else {
     if (els.row0divider) els.row0divider.style.display="";
-    for (const m of [{key:"vsopenlimp",label:"Vs limp"},{key:"vsiso",label:"Vs iso"},{key:"limp3b",label:"L 3bet"}]){
+    for (const m of [{key:"vsopenlimp",label:"Vs limp"},{key:"vsiso",label:"Vs iso cold"},{key:"vsisoOL",label:"Vs iso OL"},{key:"limp3b",label:"Iso/face 3bet"}]){
       const btn=mkBtn(m.label,()=>{
         selected.mode=m.key;
         applyModeDefaults(m.key);
@@ -274,15 +275,21 @@ function renderStack(){
 
 function renderHero(){
   els.heroGroup.innerHTML="";
+  if (SEQ_MODES.includes(selected.mode)){
+    const lbl=document.createElement("span");
+    lbl.className="grpLabel"; lbl.textContent="hero:";
+    els.heroGroup.appendChild(lbl);
+  }
   for (const p of HERO_ALL){
     const isBBinOpen = (selected.mode==="open" && p==="BB");
+    const noChart = SEQ_MODES.includes(selected.mode) && selected.stack && !heroHasAnyChart(selected.mode,selected.stack,p);
     const btn=mkBtn(p,()=>{
-      if (isBBinOpen) return;
+      if (isBBinOpen||noChart) return;
       selected.hero = (selected.hero===p) ? null : p;
       selected.threebetSize=null; selected.betSize=null; selected.limpSeq=null; selected.limpIso=null;
       syncHash(); refreshAll();
     },"hero");
-    setBtnState(btn,{sel:selected.hero===p,dis:isBBinOpen});
+    setBtnState(btn,{sel:selected.hero===p,dis:isBBinOpen||noChart});
     els.heroGroup.appendChild(btn);
   }
 }
@@ -361,7 +368,7 @@ function renderSize(){
   if (SEQ_MODES.includes(selected.mode)&&selected.villain&&selected.hero&&selected.stack){
     const sub=(((index[selected.mode]||{})[String(selected.stack)]||{})[selected.hero]||{})[selected.villain]||{};
     const entries=Object.keys(sub).filter(k=>k!=="_").map(k=>({seq:k,ch:sub[k]}));
-    const twoStep=(selected.mode==="vsiso"||selected.mode==="limp3b");
+    const twoStep=(selected.mode==="vsiso"||selected.mode==="vsisoOL"||selected.mode==="limp3b");
     if (twoStep){
       // 1. lepes: iso valasztas; 2. lepes: csak az adott iso variansai
       const isoKeys=[...new Set(entries.map(e=>e.ch.iso_key||"?"))]
@@ -606,7 +613,7 @@ function applyDefaultsOpenLimp(){
   const sub=(((index[selected.mode]||{})[String(selected.stack)]||{})[selected.hero]||{})[selected.villain]||{};
   const entries=Object.keys(sub).filter(k=>k!=="_").map(k=>({seq:k,ch:sub[k]}));
   if (!entries.length) return;
-  if (selected.mode==="vsiso"||selected.mode==="limp3b"){
+  if (selected.mode==="vsiso"||selected.mode==="vsisoOL"||selected.mode==="limp3b"){
     const isoKeys=[...new Set(entries.map(e=>e.ch.iso_key||"?"))]
       .sort((a,b)=>(a.length-b.length)||a.localeCompare(b));
     if (selected.limpIso==null||!isoKeys.includes(selected.limpIso)) selected.limpIso=isoKeys[0];
@@ -689,7 +696,7 @@ function applyModeDefaults(mode){
     selected.hero="BB"; selected.villain="UTG"; selected.villain2=null;
   } else if (mode==="c4b"){
     selected.hero="BB"; selected.villain=null; selected.villain2=null;
-  } else if (mode==="vsopenlimp"||mode==="vsiso"||mode==="limp3b"){
+  } else if (mode==="vsopenlimp"||mode==="vsiso"||mode==="vsisoOL"||mode==="limp3b"){
     selected.hero="BB"; selected.villain=(limperVillains(mode,selected.stack)[0]||"HJ"); selected.villain2=null;
   } else if (mode==="faceiso"){
     selected.hero="HJ"; selected.villain=null; selected.villain2=null;

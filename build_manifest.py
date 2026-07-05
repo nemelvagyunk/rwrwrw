@@ -89,12 +89,13 @@ def parse_chart(base, stack, folder, folder_open, file_path):
             if nr == 0:
                 return E(facing='vsopenlimp', villain=limper, open_size=0.5, seq_key=seqk)
             if nr == 1:
-                if hero == limper:
-                    return E(facing='faceiso', villain=rsteps[0][0], open_size=0.5,
-                             iso_size=rsteps[0][2], seq_key=seqk, iso_key=isok, rest_key=restk)
-                return E(facing='vsiso', villain=limper, open_size=0.5,
+                # vsiso = hero hidegen dont az iso ellen; vsisoOL = hero korabban overlimpelt
+                hero_ol = any(s[1] == 'C' and s[0] == hero for s in steps)
+                return E(facing=('vsisoOL' if hero_ol else 'vsiso'), villain=limper, open_size=0.5,
                          iso_size=rsteps[0][2], seq_key=seqk, iso_key=isok, rest_key=restk)
             if nr == 2:
+                # csak az ISORAISELO hero chartja kell (hero = elso raiselo)
+                if hero != rsteps[0][0]: return None
                 # csak COLD 3bet: a 3betelonek nem volt korabbi onkentes akcioja
                 tb = rsteps[1]
                 for s in steps:
