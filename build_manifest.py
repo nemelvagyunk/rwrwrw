@@ -127,13 +127,16 @@ def build(game_folder, out_file, stacks):
             if mo: folder = 'size'; folder_open = float(mo.group(1))
             elif sub in ('bvb','limp'): folder = sub; folder_open = None
             else: continue
-            for fn in sorted(os.listdir(subp)):
-                if not fn.lower().endswith('.png'): continue
-                base = fn[:-4]
-                fpath = f"{game_folder}/{stack}/{sub}/{fn}"
-                e = parse_chart(base, stack, folder, folder_open, fpath)
-                if e: charts.append(e)
-                else: skipped.append(fpath)
+            # rekurzivan is (pl. limp/BU, limp/CO almappak)
+            for root, _dirs, files in os.walk(subp):
+                for fn in sorted(files):
+                    if not fn.lower().endswith('.png'): continue
+                    base = fn[:-4]
+                    rel = os.path.relpath(os.path.join(root, fn), subp).replace('\\', '/')
+                    fpath = f"{game_folder}/{stack}/{sub}/{rel}"
+                    e = parse_chart(base, stack, folder, folder_open, fpath)
+                    if e: charts.append(e)
+                    else: skipped.append(fpath)
     out = {"generated": datetime.now(timezone.utc).isoformat().replace("+00:00","Z"), "charts": charts}
     with open(os.path.join(BASE, out_file), "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
