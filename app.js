@@ -24,6 +24,18 @@ const HERO_POS_BY_MODE = {
 };
 const VSOPENLIMP_VILLAINS = ["UTG","HJ","CO","BU"];
 // a limper-gombok (ki limpelt) csak azok, amikhez van chart a manifestben
+// iso-gombok rendezese: isoraiselo pozicioja (SB elobb, BB utana), azon belul meret novekvo
+function isoOrderVal(ik){
+  const m=String(ik).match(/^([A-Z]+) iso (?:([0-9.]+)bb|jam)$/i);
+  if (!m) return [9,1e9];
+  const pos=(m[1]||"").toUpperCase();
+  const sz=m[2]?parseFloat(m[2]):1e8;
+  return [(POS_ORDER[pos]!==undefined?POS_ORDER[pos]:9), sz];
+}
+function isoKeySort(a,b){
+  const A=isoOrderVal(a), B=isoOrderVal(b);
+  return (A[0]-B[0])||(A[1]-B[1])||a.localeCompare(b);
+}
 function limperVillains(mode,stack){
   const set=new Set();
   for (const [h,villains] of Object.entries((index[mode]||{})[String(stack)]||{}))
@@ -371,8 +383,7 @@ function renderSize(){
     const twoStep=(selected.mode==="vsiso"||selected.mode==="vsisoOL"||selected.mode==="limp3b");
     if (twoStep){
       // 1. lepes: iso valasztas; 2. lepes: csak az adott iso variansai
-      const isoKeys=[...new Set(entries.map(e=>e.ch.iso_key||"?"))]
-        .sort((a,b)=>(a.length-b.length)||a.localeCompare(b));
+      const isoKeys=[...new Set(entries.map(e=>e.ch.iso_key||"?"))].sort(isoKeySort);
       for (const ik of isoKeys){
         const btn=mkBtn(ik.toLowerCase(),()=>{ selected.limpIso=ik; selected.limpSeq=null; syncHash(); refreshAll(); },"size opensize");
         setBtnState(btn,{sel:selected.limpIso===ik,dis:false});
@@ -614,8 +625,7 @@ function applyDefaultsOpenLimp(){
   const entries=Object.keys(sub).filter(k=>k!=="_").map(k=>({seq:k,ch:sub[k]}));
   if (!entries.length) return;
   if (selected.mode==="vsiso"||selected.mode==="vsisoOL"||selected.mode==="limp3b"){
-    const isoKeys=[...new Set(entries.map(e=>e.ch.iso_key||"?"))]
-      .sort((a,b)=>(a.length-b.length)||a.localeCompare(b));
+    const isoKeys=[...new Set(entries.map(e=>e.ch.iso_key||"?"))].sort(isoKeySort);
     if (selected.limpIso==null||!isoKeys.includes(selected.limpIso)) selected.limpIso=isoKeys[0];
     if (selected.limpSeq==null||((sub[selected.limpSeq]||{}).iso_key||"?")!==selected.limpIso){
       const chosen=entries.filter(e=>(e.ch.iso_key||"?")===selected.limpIso)
