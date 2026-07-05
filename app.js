@@ -5,7 +5,7 @@ const HERO_ALL       = ["UTG","HJ","CO","BU","SB","BB"];
 const VILLAIN_ALL    = ["UTG","HJ","CO","BU","SB","BB"];
 const ALL_OPEN_SIZES = [2, 2.5, 3, 3.5, 4, 5];
 const ALL_STACKS     = [100];
-const SEQ_MODES = ["faceiso", "vsopenlimp", "vsiso", "vsisoOL", "limp3b"];
+const SEQ_MODES = ["faceiso", "vsopenlimp", "vsiso", "limp3b"];
 
 const HERO_POS_BY_MODE = {
   open:      ["UTG","HJ","CO","BU","SB"],
@@ -242,7 +242,7 @@ function renderMode(){
     }
   } else {
     if (els.row0divider) els.row0divider.style.display="";
-    for (const m of [{key:"vsopenlimp",label:"Vs limp"},{key:"vsiso",label:"Vs iso cold"},{key:"vsisoOL",label:"Vs iso OL"},{key:"limp3b",label:"Iso/face 3bet"}]){
+    for (const m of [{key:"vsopenlimp",label:"Vs limp"},{key:"vsiso",label:"Vs iso"},{key:"limp3b",label:"Iso/face 3bet"}]){
       const btn=mkBtn(m.label,()=>{
         selected.mode=m.key;
         applyModeDefaults(m.key);
