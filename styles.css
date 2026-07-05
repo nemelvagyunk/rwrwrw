@@ -127,3 +127,7 @@ body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,
 /* csoport-cimkek a limp nezetekben */
 .grpLabel{opacity:.65;font-size:.85em;align-self:center;padding:0 6px;white-space:nowrap;}
 
+
+/* row0 modvalto gombok: tartalomhoz meretezve, ne csonkuljon a felirat */
+#vsoplGroup>.btn{flex:0 0 auto;min-width:max-content;padding:0 12px;}
+
