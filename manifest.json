@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-05T04:07:59.159028Z",
+  "generated": "2026-07-05T04:29:32.749003Z",
   "charts": [
     {
       "file": "0.5bbante-6max/100/2.5bb/bu-2.5bb-raise-bb-12bb-raise-bu.png",
@@ -20862,26 +20862,6 @@
       "rest_key": null
     },
     {
-      "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-10bb-raise-bb-19bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "BU",
-      "villain2": null,
-      "stack": 100,
-      "title": "bu-limp-sb-10bb-raise-bb-19bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 19.0,
-      "threebet_size_raw": "19.0bb",
-      "iso_size": 10.0,
-      "iso_size_raw": "10.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "SB 10bb BB 19bb BU call",
-      "iso_key": "SB 10bb",
-      "rest_key": "BB 19bb BU call"
-    },
-    {
       "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-10bb-raise-bb-19bb-raise-sb.png",
       "facing": "limp3b",
       "hero": "SB",
@@ -20898,28 +20878,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 10bb BB 19bb",
-      "iso_key": "SB 10bb",
-      "rest_key": "BB 19bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-10bb-raise-bb-99.5bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "BU",
-      "villain2": null,
-      "stack": 100,
-      "title": "bu-limp-sb-10bb-raise-bb-99.5bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 10.0,
-      "iso_size_raw": "10.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "SB 10bb BB 99.5bb BU call",
-      "iso_key": "SB 10bb",
-      "rest_key": "BB 99.5bb BU call"
+      "iso_key": "SB iso 10bb",
+      "rest_key": "BB 3bet 19bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-10bb-raise-bb-99.5bb-raise-sb.png",
@@ -20938,8 +20898,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 10bb BB 99.5bb",
-      "iso_key": "SB 10bb",
-      "rest_key": "BB 99.5bb"
+      "iso_key": "SB iso 10bb",
+      "rest_key": "BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-10bb-raise-bb.png",
@@ -20958,28 +20918,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 10bb",
-      "iso_key": "SB 10bb",
+      "iso_key": "SB iso 10bb",
       "rest_key": "sima"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-5bb-raise-bb-12bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "BU",
-      "villain2": null,
-      "stack": 100,
-      "title": "bu-limp-sb-5bb-raise-bb-12bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 12.0,
-      "threebet_size_raw": "12.0bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "SB 5bb BB 12bb BU call",
-      "iso_key": "SB 5bb",
-      "rest_key": "BB 12bb BU call"
     },
     {
       "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-5bb-raise-bb-12bb-raise-sb.png",
@@ -20998,28 +20938,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 5bb BB 12bb",
-      "iso_key": "SB 5bb",
-      "rest_key": "BB 12bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-5bb-raise-bb-99.5bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "BU",
-      "villain2": null,
-      "stack": 100,
-      "title": "bu-limp-sb-5bb-raise-bb-99.5bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "SB 5bb BB 99.5bb BU call",
-      "iso_key": "SB 5bb",
-      "rest_key": "BB 99.5bb BU call"
+      "iso_key": "SB iso 5bb",
+      "rest_key": "BB 3bet 12bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-5bb-raise-bb-99.5bb-raise-sb.png",
@@ -21038,8 +20958,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 5bb BB 99.5bb",
-      "iso_key": "SB 5bb",
-      "rest_key": "BB 99.5bb"
+      "iso_key": "SB iso 5bb",
+      "rest_key": "BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-5bb-raise-bb.png",
@@ -21058,28 +20978,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 5bb",
-      "iso_key": "SB 5bb",
+      "iso_key": "SB iso 5bb",
       "rest_key": "sima"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-7.5bb-raise-bb-14bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "BU",
-      "villain2": null,
-      "stack": 100,
-      "title": "bu-limp-sb-7.5bb-raise-bb-14bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 14.0,
-      "threebet_size_raw": "14.0bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "SB 7.5bb BB 14bb BU call",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BB 14bb BU call"
     },
     {
       "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-7.5bb-raise-bb-14bb-raise-sb.png",
@@ -21098,28 +20998,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 7.5bb BB 14bb",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BB 14bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-7.5bb-raise-bb-99.5bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "BU",
-      "villain2": null,
-      "stack": 100,
-      "title": "bu-limp-sb-7.5bb-raise-bb-99.5bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "SB 7.5bb BB 99.5bb BU call",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BB 99.5bb BU call"
+      "iso_key": "SB iso 7.5bb",
+      "rest_key": "BB 3bet 14bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-7.5bb-raise-bb-99.5bb-raise-sb.png",
@@ -21138,8 +21018,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 7.5bb BB 99.5bb",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BB 99.5bb"
+      "iso_key": "SB iso 7.5bb",
+      "rest_key": "BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-7.5bb-raise-bb.png",
@@ -21158,7 +21038,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 7.5bb",
-      "iso_key": "SB 7.5bb",
+      "iso_key": "SB iso 7.5bb",
       "rest_key": "sima"
     },
     {
@@ -21178,8 +21058,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB call BB 11bb BU call",
-      "iso_key": "BB 11bb",
-      "rest_key": "SB call BU call"
+      "iso_key": "BB iso 11bb",
+      "rest_key": "SB call + BU call"
     },
     {
       "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-call-bb-11bb-raise-sb.png",
@@ -21198,7 +21078,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB call BB 11bb",
-      "iso_key": "BB 11bb",
+      "iso_key": "BB iso 11bb",
       "rest_key": "SB call"
     },
     {
@@ -21218,8 +21098,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB call BB 6bb BU call",
-      "iso_key": "BB 6bb",
-      "rest_key": "SB call BU call"
+      "iso_key": "BB iso 6bb",
+      "rest_key": "SB call + BU call"
     },
     {
       "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-call-bb-6bb-raise-sb.png",
@@ -21238,7 +21118,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB call BB 6bb",
-      "iso_key": "BB 6bb",
+      "iso_key": "BB iso 6bb",
       "rest_key": "SB call"
     },
     {
@@ -21258,8 +21138,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB call BB 8.5bb BU call",
-      "iso_key": "BB 8.5bb",
-      "rest_key": "SB call BU call"
+      "iso_key": "BB iso 8.5bb",
+      "rest_key": "SB call + BU call"
     },
     {
       "file": "0.5bbante-6max/100/limp/BU/bu-limp-sb-call-bb-8.5bb-raise-sb.png",
@@ -21278,7 +21158,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB call BB 8.5bb",
-      "iso_key": "BB 8.5bb",
+      "iso_key": "BB iso 8.5bb",
       "rest_key": "SB call"
     },
     {
@@ -21358,28 +21238,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb BB 12bb",
-      "iso_key": "BU 4bb",
-      "rest_key": "BB 12bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-bb-12bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-bb-12bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 12.0,
-      "threebet_size_raw": "12.0bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb BB 12bb CO call",
-      "iso_key": "BU 4bb",
-      "rest_key": "BB 12bb CO call"
+      "iso_key": "BU iso 4bb",
+      "rest_key": "BB 3bet 12bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-bb-99.5bb-raise-bu.png",
@@ -21398,28 +21258,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb BB 99.5bb",
-      "iso_key": "BU 4bb",
-      "rest_key": "BB 99.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-bb-99.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-bb-99.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb BB 99.5bb CO call",
-      "iso_key": "BU 4bb",
-      "rest_key": "BB 99.5bb CO call"
+      "iso_key": "BU iso 4bb",
+      "rest_key": "BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-bb.png",
@@ -21438,7 +21278,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb",
-      "iso_key": "BU 4bb",
+      "iso_key": "BU iso 4bb",
       "rest_key": "sima"
     },
     {
@@ -21458,8 +21298,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb SB 12bb",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB 12bb"
+      "iso_key": "BU iso 4bb",
+      "rest_key": "SB 3bet 12bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-12bb-raise-bu.png",
@@ -21478,68 +21318,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb SB 12bb",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB 12bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-12bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-sb-12bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 12.0,
-      "threebet_size_raw": "12.0bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb SB 12bb CO call",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB 12bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-99.5bb-raise-bb-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-sb-99.5bb-raise-bb-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb SB 99.5bb BB call",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB 99.5bb BB call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-99.5bb-raise-bb-call-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-sb-99.5bb-raise-bb-call-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb SB 99.5bb BB call CO call",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB 99.5bb BB call CO call"
+      "iso_key": "BU iso 4bb",
+      "rest_key": "SB 3bet 12bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-99.5bb-raise-bb.png",
@@ -21558,8 +21338,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb SB 99.5bb",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB 99.5bb"
+      "iso_key": "BU iso 4bb",
+      "rest_key": "SB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-99.5bb-raise-bu.png",
@@ -21578,48 +21358,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb SB 99.5bb",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB 99.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-99.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-sb-99.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb SB 99.5bb CO call",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB 99.5bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-call-bb-12bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-sb-call-bb-12bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 12.0,
-      "threebet_size_raw": "12.0bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb SB call BB 12bb BU call",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB call BB 12bb BU call"
+      "iso_key": "BU iso 4bb",
+      "rest_key": "SB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-call-bb-12bb-raise-bu.png",
@@ -21638,48 +21378,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb SB call BB 12bb",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB call BB 12bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-call-bb-12bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-sb-call-bb-12bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 12.0,
-      "threebet_size_raw": "12.0bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb SB call BB 12bb CO call",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB call BB 12bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-call-bb-12bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-sb-call-bb-12bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 12.0,
-      "threebet_size_raw": "12.0bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb SB call BB 12bb CO call",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB call BB 12bb CO call"
+      "iso_key": "BU iso 4bb",
+      "rest_key": "SB call + BB 3bet 12bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-call-bb-12bb-raise-sb.png",
@@ -21698,28 +21398,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb SB call BB 12bb",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB call BB 12bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-call-bb-99.5bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-sb-call-bb-99.5bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb SB call BB 99.5bb BU call",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB call BB 99.5bb BU call"
+      "iso_key": "BU iso 4bb",
+      "rest_key": "SB call + BB 3bet 12bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-call-bb-99.5bb-raise-bu.png",
@@ -21738,68 +21418,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb SB call BB 99.5bb",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB call BB 99.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-call-bb-99.5bb-raise-co-call-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-sb-call-bb-99.5bb-raise-co-call-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb SB call BB 99.5bb CO call BU call",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB call BB 99.5bb CO call BU call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-call-bb-99.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-sb-call-bb-99.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb SB call BB 99.5bb CO call",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB call BB 99.5bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-call-bb-99.5bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-4bb-raise-sb-call-bb-99.5bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 4bb SB call BB 99.5bb CO call",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB call BB 99.5bb CO call"
+      "iso_key": "BU iso 4bb",
+      "rest_key": "SB call + BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-call-bb-99.5bb-raise-sb.png",
@@ -21818,8 +21438,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb SB call BB 99.5bb",
-      "iso_key": "BU 4bb",
-      "rest_key": "SB call BB 99.5bb"
+      "iso_key": "BU iso 4bb",
+      "rest_key": "SB call + BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-4bb-raise-sb-call-bb.png",
@@ -21838,7 +21458,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb SB call",
-      "iso_key": "BU 4bb",
+      "iso_key": "BU iso 4bb",
       "rest_key": "SB call"
     },
     {
@@ -21858,7 +21478,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 4bb",
-      "iso_key": "BU 4bb",
+      "iso_key": "BU iso 4bb",
       "rest_key": "sima"
     },
     {
@@ -21878,28 +21498,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb BB 15bb",
-      "iso_key": "BU 5bb",
-      "rest_key": "BB 15bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-bb-15bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-bb-15bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 15.0,
-      "threebet_size_raw": "15.0bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb BB 15bb CO call",
-      "iso_key": "BU 5bb",
-      "rest_key": "BB 15bb CO call"
+      "iso_key": "BU iso 5bb",
+      "rest_key": "BB 3bet 15bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-bb-99.5bb-raise-bu.png",
@@ -21918,28 +21518,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb BB 99.5bb",
-      "iso_key": "BU 5bb",
-      "rest_key": "BB 99.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-bb-99.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-bb-99.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb BB 99.5bb CO call",
-      "iso_key": "BU 5bb",
-      "rest_key": "BB 99.5bb CO call"
+      "iso_key": "BU iso 5bb",
+      "rest_key": "BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-bb.png",
@@ -21958,7 +21538,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb",
-      "iso_key": "BU 5bb",
+      "iso_key": "BU iso 5bb",
       "rest_key": "sima"
     },
     {
@@ -21978,8 +21558,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb SB 15bb",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB 15bb"
+      "iso_key": "BU iso 5bb",
+      "rest_key": "SB 3bet 15bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-15bb-raise-bu.png",
@@ -21998,68 +21578,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb SB 15bb",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB 15bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-15bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-sb-15bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 15.0,
-      "threebet_size_raw": "15.0bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb SB 15bb CO call",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB 15bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-99.5bb-raise-bb-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-sb-99.5bb-raise-bb-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb SB 99.5bb BB call",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB 99.5bb BB call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-99.5bb-raise-bb-call-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-sb-99.5bb-raise-bb-call-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb SB 99.5bb BB call CO call",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB 99.5bb BB call CO call"
+      "iso_key": "BU iso 5bb",
+      "rest_key": "SB 3bet 15bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-99.5bb-raise-bb.png",
@@ -22078,8 +21598,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb SB 99.5bb",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB 99.5bb"
+      "iso_key": "BU iso 5bb",
+      "rest_key": "SB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-99.5bb-raise-bu.png",
@@ -22098,48 +21618,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb SB 99.5bb",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB 99.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-99.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-sb-99.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb SB 99.5bb CO call",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB 99.5bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-call-bb-15bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-sb-call-bb-15bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 15.0,
-      "threebet_size_raw": "15.0bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb SB call BB 15bb BU call",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB call BB 15bb BU call"
+      "iso_key": "BU iso 5bb",
+      "rest_key": "SB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-call-bb-15bb-raise-bu.png",
@@ -22158,48 +21638,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb SB call BB 15bb",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB call BB 15bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-call-bb-15bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-sb-call-bb-15bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 15.0,
-      "threebet_size_raw": "15.0bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb SB call BB 15bb CO call",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB call BB 15bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-call-bb-15bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-sb-call-bb-15bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 15.0,
-      "threebet_size_raw": "15.0bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb SB call BB 15bb CO call",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB call BB 15bb CO call"
+      "iso_key": "BU iso 5bb",
+      "rest_key": "SB call + BB 3bet 15bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-call-bb-15bb-raise-sb.png",
@@ -22218,28 +21658,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb SB call BB 15bb",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB call BB 15bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-call-bb-99.5bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-sb-call-bb-99.5bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb SB call BB 99.5bb BU call",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB call BB 99.5bb BU call"
+      "iso_key": "BU iso 5bb",
+      "rest_key": "SB call + BB 3bet 15bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-call-bb-99.5bb-raise-bu.png",
@@ -22258,68 +21678,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb SB call BB 99.5bb",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB call BB 99.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-call-bb-99.5bb-raise-co-call-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-sb-call-bb-99.5bb-raise-co-call-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb SB call BB 99.5bb CO call BU call",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB call BB 99.5bb CO call BU call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-call-bb-99.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-sb-call-bb-99.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb SB call BB 99.5bb CO call",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB call BB 99.5bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-call-bb-99.5bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-5bb-raise-sb-call-bb-99.5bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 5bb SB call BB 99.5bb CO call",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB call BB 99.5bb CO call"
+      "iso_key": "BU iso 5bb",
+      "rest_key": "SB call + BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-call-bb-99.5bb-raise-sb.png",
@@ -22338,8 +21698,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb SB call BB 99.5bb",
-      "iso_key": "BU 5bb",
-      "rest_key": "SB call BB 99.5bb"
+      "iso_key": "BU iso 5bb",
+      "rest_key": "SB call + BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-5bb-raise-sb-call-bb.png",
@@ -22358,7 +21718,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb SB call",
-      "iso_key": "BU 5bb",
+      "iso_key": "BU iso 5bb",
       "rest_key": "SB call"
     },
     {
@@ -22378,7 +21738,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 5bb",
-      "iso_key": "BU 5bb",
+      "iso_key": "BU iso 5bb",
       "rest_key": "sima"
     },
     {
@@ -22398,28 +21758,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb BB 22.5bb",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "BB 22.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-bb-22.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-bb-22.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 22.5,
-      "threebet_size_raw": "22.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb BB 22.5bb CO call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "BB 22.5bb CO call"
+      "iso_key": "BU iso 7.5bb",
+      "rest_key": "BB 3bet 22.5bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-bb-99.5bb-raise-bu.png",
@@ -22438,28 +21778,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb BB 99.5bb",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "BB 99.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-bb-99.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-bb-99.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb BB 99.5bb CO call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "BB 99.5bb CO call"
+      "iso_key": "BU iso 7.5bb",
+      "rest_key": "BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-bb.png",
@@ -22478,7 +21798,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb",
-      "iso_key": "BU 7.5bb",
+      "iso_key": "BU iso 7.5bb",
       "rest_key": "sima"
     },
     {
@@ -22498,8 +21818,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb SB 22.5bb",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB 22.5bb"
+      "iso_key": "BU iso 7.5bb",
+      "rest_key": "SB 3bet 22.5bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-22.5bb-raise-bu.png",
@@ -22518,68 +21838,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb SB 22.5bb",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB 22.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-22.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-sb-22.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 22.5,
-      "threebet_size_raw": "22.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb SB 22.5bb CO call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB 22.5bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-99.5bb-raise-bb-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-sb-99.5bb-raise-bb-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb SB 99.5bb BB call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB 99.5bb BB call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-99.5bb-raise-bb-call-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-sb-99.5bb-raise-bb-call-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb SB 99.5bb BB call CO call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB 99.5bb BB call CO call"
+      "iso_key": "BU iso 7.5bb",
+      "rest_key": "SB 3bet 22.5bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-99.5bb-raise-bb.png",
@@ -22598,8 +21858,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb SB 99.5bb",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB 99.5bb"
+      "iso_key": "BU iso 7.5bb",
+      "rest_key": "SB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-99.5bb-raise-bu.png",
@@ -22618,48 +21878,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb SB 99.5bb",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB 99.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-99.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-sb-99.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb SB 99.5bb CO call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB 99.5bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-call-bb-22.5bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-sb-call-bb-22.5bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 22.5,
-      "threebet_size_raw": "22.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb SB call BB 22.5bb BU call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB call BB 22.5bb BU call"
+      "iso_key": "BU iso 7.5bb",
+      "rest_key": "SB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-call-bb-22.5bb-raise-bu.png",
@@ -22678,48 +21898,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb SB call BB 22.5bb",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB call BB 22.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-call-bb-22.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-sb-call-bb-22.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 22.5,
-      "threebet_size_raw": "22.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb SB call BB 22.5bb CO call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB call BB 22.5bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-call-bb-22.5bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-sb-call-bb-22.5bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 22.5,
-      "threebet_size_raw": "22.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb SB call BB 22.5bb CO call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB call BB 22.5bb CO call"
+      "iso_key": "BU iso 7.5bb",
+      "rest_key": "SB call + BB 3bet 22.5bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-call-bb-22.5bb-raise-sb.png",
@@ -22738,28 +21918,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb SB call BB 22.5bb",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB call BB 22.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-call-bb-99.5bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-sb-call-bb-99.5bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb SB call BB 99.5bb BU call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB call BB 99.5bb BU call"
+      "iso_key": "BU iso 7.5bb",
+      "rest_key": "SB call + BB 3bet 22.5bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-call-bb-99.5bb-raise-bu.png",
@@ -22778,68 +21938,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb SB call BB 99.5bb",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB call BB 99.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-call-bb-99.5bb-raise-co-call-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-sb-call-bb-99.5bb-raise-co-call-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb SB call BB 99.5bb CO call BU call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB call BB 99.5bb CO call BU call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-call-bb-99.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-sb-call-bb-99.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb SB call BB 99.5bb CO call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB call BB 99.5bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-call-bb-99.5bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-7.5bb-raise-sb-call-bb-99.5bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU 7.5bb SB call BB 99.5bb CO call",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB call BB 99.5bb CO call"
+      "iso_key": "BU iso 7.5bb",
+      "rest_key": "SB call + BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-call-bb-99.5bb-raise-sb.png",
@@ -22858,8 +21958,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb SB call BB 99.5bb",
-      "iso_key": "BU 7.5bb",
-      "rest_key": "SB call BB 99.5bb"
+      "iso_key": "BU iso 7.5bb",
+      "rest_key": "SB call + BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-7.5bb-raise-sb-call-bb.png",
@@ -22878,7 +21978,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb SB call",
-      "iso_key": "BU 7.5bb",
+      "iso_key": "BU iso 7.5bb",
       "rest_key": "SB call"
     },
     {
@@ -22898,7 +21998,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU 7.5bb",
-      "iso_key": "BU 7.5bb",
+      "iso_key": "BU iso 7.5bb",
       "rest_key": "sima"
     },
     {
@@ -22918,7 +22018,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call BB 10bb",
-      "iso_key": "BB 10bb",
+      "iso_key": "BB iso 10bb",
       "rest_key": "BU call"
     },
     {
@@ -22938,8 +22038,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call BB 10bb CO call",
-      "iso_key": "BB 10bb",
-      "rest_key": "BU call CO call"
+      "iso_key": "BB iso 10bb",
+      "rest_key": "BU call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-bb-5bb-raise-bu.png",
@@ -22958,7 +22058,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call BB 5bb",
-      "iso_key": "BB 5bb",
+      "iso_key": "BB iso 5bb",
       "rest_key": "BU call"
     },
     {
@@ -22978,8 +22078,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call BB 5bb CO call",
-      "iso_key": "BB 5bb",
-      "rest_key": "BU call CO call"
+      "iso_key": "BB iso 5bb",
+      "rest_key": "BU call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-bb-7.5bb-raise-bu.png",
@@ -22998,7 +22098,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call BB 7.5bb",
-      "iso_key": "BB 7.5bb",
+      "iso_key": "BB iso 7.5bb",
       "rest_key": "BU call"
     },
     {
@@ -23018,8 +22118,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call BB 7.5bb CO call",
-      "iso_key": "BB 7.5bb",
-      "rest_key": "BU call CO call"
+      "iso_key": "BB iso 7.5bb",
+      "rest_key": "BU call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-bb.png",
@@ -23042,26 +22142,6 @@
       "rest_key": null
     },
     {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-30bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-10bb-raise-bb-30bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 30.0,
-      "threebet_size_raw": "30.0bb",
-      "iso_size": 10.0,
-      "iso_size_raw": "10.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 10bb BB 30bb BU call",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB 30bb BU call"
-    },
-    {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-30bb-raise-bu.png",
       "facing": "limp3b",
       "hero": "BU",
@@ -23078,48 +22158,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 10bb BB 30bb",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB 30bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-30bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-10bb-raise-bb-30bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 30.0,
-      "threebet_size_raw": "30.0bb",
-      "iso_size": 10.0,
-      "iso_size_raw": "10.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 10bb BB 30bb CO call",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB 30bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-30bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-10bb-raise-bb-30bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 30.0,
-      "threebet_size_raw": "30.0bb",
-      "iso_size": 10.0,
-      "iso_size_raw": "10.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 10bb BB 30bb CO call",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB 30bb CO call"
+      "iso_key": "SB iso 10bb",
+      "rest_key": "BU call + BB 3bet 30bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-30bb-raise-sb.png",
@@ -23138,28 +22178,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 10bb BB 30bb",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB 30bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-99.5bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-10bb-raise-bb-99.5bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 10.0,
-      "iso_size_raw": "10.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 10bb BB 99.5bb BU call",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB 99.5bb BU call"
+      "iso_key": "SB iso 10bb",
+      "rest_key": "BU call + BB 3bet 30bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-99.5bb-raise-bu.png",
@@ -23178,68 +22198,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 10bb BB 99.5bb",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB 99.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-99.5bb-raise-co-call-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-10bb-raise-bb-99.5bb-raise-co-call-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 10.0,
-      "iso_size_raw": "10.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 10bb BB 99.5bb CO call BU call",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB 99.5bb CO call BU call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-99.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-10bb-raise-bb-99.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 10.0,
-      "iso_size_raw": "10.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 10bb BB 99.5bb CO call",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB 99.5bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-99.5bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-10bb-raise-bb-99.5bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 10.0,
-      "iso_size_raw": "10.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 10bb BB 99.5bb CO call",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB 99.5bb CO call"
+      "iso_key": "SB iso 10bb",
+      "rest_key": "BU call + BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-99.5bb-raise-sb.png",
@@ -23258,8 +22218,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 10bb BB 99.5bb",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB 99.5bb"
+      "iso_key": "SB iso 10bb",
+      "rest_key": "BU call + BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-call-bu.png",
@@ -23278,8 +22238,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 10bb BB call",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB call"
+      "iso_key": "SB iso 10bb",
+      "rest_key": "BU call + BB call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb-call-co-call-bu.png",
@@ -23298,8 +22258,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 10bb BB call CO call",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call BB call CO call"
+      "iso_key": "SB iso 10bb",
+      "rest_key": "BU call + BB call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-10bb-raise-bb.png",
@@ -23318,7 +22278,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 10bb",
-      "iso_key": "SB 10bb",
+      "iso_key": "SB iso 10bb",
       "rest_key": "BU call"
     },
     {
@@ -23338,7 +22298,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 10bb",
-      "iso_key": "SB 10bb",
+      "iso_key": "SB iso 10bb",
       "rest_key": "BU call"
     },
     {
@@ -23358,28 +22318,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 10bb CO call",
-      "iso_key": "SB 10bb",
-      "rest_key": "BU call CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-15bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-5bb-raise-bb-15bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 15.0,
-      "threebet_size_raw": "15.0bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 5bb BB 15bb BU call",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB 15bb BU call"
+      "iso_key": "SB iso 10bb",
+      "rest_key": "BU call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-15bb-raise-bu.png",
@@ -23398,48 +22338,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 5bb BB 15bb",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB 15bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-15bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-5bb-raise-bb-15bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 15.0,
-      "threebet_size_raw": "15.0bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 5bb BB 15bb CO call",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB 15bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-15bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-5bb-raise-bb-15bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 15.0,
-      "threebet_size_raw": "15.0bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 5bb BB 15bb CO call",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB 15bb CO call"
+      "iso_key": "SB iso 5bb",
+      "rest_key": "BU call + BB 3bet 15bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-15bb-raise-sb.png",
@@ -23458,28 +22358,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 5bb BB 15bb",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB 15bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-99.5bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-5bb-raise-bb-99.5bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 5bb BB 99.5bb BU call",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB 99.5bb BU call"
+      "iso_key": "SB iso 5bb",
+      "rest_key": "BU call + BB 3bet 15bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-99.5bb-raise-bu.png",
@@ -23498,68 +22378,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 5bb BB 99.5bb",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB 99.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-99.5bb-raise-co-call-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-5bb-raise-bb-99.5bb-raise-co-call-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 5bb BB 99.5bb CO call BU call",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB 99.5bb CO call BU call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-99.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-5bb-raise-bb-99.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 5bb BB 99.5bb CO call",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB 99.5bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-99.5bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-5bb-raise-bb-99.5bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 5.0,
-      "iso_size_raw": "5.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 5bb BB 99.5bb CO call",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB 99.5bb CO call"
+      "iso_key": "SB iso 5bb",
+      "rest_key": "BU call + BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-99.5bb-raise-sb.png",
@@ -23578,8 +22398,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 5bb BB 99.5bb",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB 99.5bb"
+      "iso_key": "SB iso 5bb",
+      "rest_key": "BU call + BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-call-bu.png",
@@ -23598,8 +22418,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 5bb BB call",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB call"
+      "iso_key": "SB iso 5bb",
+      "rest_key": "BU call + BB call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb-call-co-call-bu.png",
@@ -23618,8 +22438,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 5bb BB call CO call",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call BB call CO call"
+      "iso_key": "SB iso 5bb",
+      "rest_key": "BU call + BB call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-5bb-raise-bb.png",
@@ -23638,7 +22458,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 5bb",
-      "iso_key": "SB 5bb",
+      "iso_key": "SB iso 5bb",
       "rest_key": "BU call"
     },
     {
@@ -23658,7 +22478,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 5bb",
-      "iso_key": "SB 5bb",
+      "iso_key": "SB iso 5bb",
       "rest_key": "BU call"
     },
     {
@@ -23678,28 +22498,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 5bb CO call",
-      "iso_key": "SB 5bb",
-      "rest_key": "BU call CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-22.5bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-7.5bb-raise-bb-22.5bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 22.5,
-      "threebet_size_raw": "22.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 7.5bb BB 22.5bb BU call",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB 22.5bb BU call"
+      "iso_key": "SB iso 5bb",
+      "rest_key": "BU call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-22.5bb-raise-bu.png",
@@ -23718,48 +22518,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 7.5bb BB 22.5bb",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB 22.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-22.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-7.5bb-raise-bb-22.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 22.5,
-      "threebet_size_raw": "22.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 7.5bb BB 22.5bb CO call",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB 22.5bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-22.5bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-7.5bb-raise-bb-22.5bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 22.5,
-      "threebet_size_raw": "22.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 7.5bb BB 22.5bb CO call",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB 22.5bb CO call"
+      "iso_key": "SB iso 7.5bb",
+      "rest_key": "BU call + BB 3bet 22.5bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-22.5bb-raise-sb.png",
@@ -23778,28 +22538,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 7.5bb BB 22.5bb",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB 22.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-99.5bb-raise-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-7.5bb-raise-bb-99.5bb-raise-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 7.5bb BB 99.5bb BU call",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB 99.5bb BU call"
+      "iso_key": "SB iso 7.5bb",
+      "rest_key": "BU call + BB 3bet 22.5bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-99.5bb-raise-bu.png",
@@ -23818,68 +22558,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 7.5bb BB 99.5bb",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB 99.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-99.5bb-raise-co-call-bu-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-7.5bb-raise-bb-99.5bb-raise-co-call-bu-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 7.5bb BB 99.5bb CO call BU call",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB 99.5bb CO call BU call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-99.5bb-raise-co-call-bu.png",
-      "facing": "limp3b",
-      "hero": "BU",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-7.5bb-raise-bb-99.5bb-raise-co-call-bu",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 7.5bb BB 99.5bb CO call",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB 99.5bb CO call"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-99.5bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-bu-call-sb-7.5bb-raise-bb-99.5bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 7.5,
-      "iso_size_raw": "7.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "BU call SB 7.5bb BB 99.5bb CO call",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB 99.5bb CO call"
+      "iso_key": "SB iso 7.5bb",
+      "rest_key": "BU call + BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-99.5bb-raise-sb.png",
@@ -23898,8 +22578,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 7.5bb BB 99.5bb",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB 99.5bb"
+      "iso_key": "SB iso 7.5bb",
+      "rest_key": "BU call + BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-call-bu.png",
@@ -23918,8 +22598,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 7.5bb BB call",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB call"
+      "iso_key": "SB iso 7.5bb",
+      "rest_key": "BU call + BB call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb-call-co-call-bu.png",
@@ -23938,8 +22618,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 7.5bb BB call CO call",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call BB call CO call"
+      "iso_key": "SB iso 7.5bb",
+      "rest_key": "BU call + BB call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-7.5bb-raise-bb.png",
@@ -23958,7 +22638,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 7.5bb",
-      "iso_key": "SB 7.5bb",
+      "iso_key": "SB iso 7.5bb",
       "rest_key": "BU call"
     },
     {
@@ -23978,7 +22658,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 7.5bb",
-      "iso_key": "SB 7.5bb",
+      "iso_key": "SB iso 7.5bb",
       "rest_key": "BU call"
     },
     {
@@ -23998,8 +22678,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB 7.5bb CO call",
-      "iso_key": "SB 7.5bb",
-      "rest_key": "BU call CO call"
+      "iso_key": "SB iso 7.5bb",
+      "rest_key": "BU call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-11bb-raise-bu-call-sb.png",
@@ -24018,8 +22698,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 11bb BU call",
-      "iso_key": "BB 11bb",
-      "rest_key": "BU call SB call BU call"
+      "iso_key": "BB iso 11bb",
+      "rest_key": "BU call + SB call + BU call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-11bb-raise-bu.png",
@@ -24038,8 +22718,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 11bb",
-      "iso_key": "BB 11bb",
-      "rest_key": "BU call SB call"
+      "iso_key": "BB iso 11bb",
+      "rest_key": "BU call + SB call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-11bb-raise-co-call-bu-call-sb.png",
@@ -24058,8 +22738,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 11bb CO call BU call",
-      "iso_key": "BB 11bb",
-      "rest_key": "BU call SB call CO call BU call"
+      "iso_key": "BB iso 11bb",
+      "rest_key": "BU call + SB call + CO call + BU call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-11bb-raise-co-call-bu.png",
@@ -24078,8 +22758,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 11bb CO call",
-      "iso_key": "BB 11bb",
-      "rest_key": "BU call SB call CO call"
+      "iso_key": "BB iso 11bb",
+      "rest_key": "BU call + SB call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-11bb-raise-co-call-sb.png",
@@ -24098,8 +22778,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 11bb CO call",
-      "iso_key": "BB 11bb",
-      "rest_key": "BU call SB call CO call"
+      "iso_key": "BB iso 11bb",
+      "rest_key": "BU call + SB call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-11bb-raise-sb.png",
@@ -24118,8 +22798,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 11bb",
-      "iso_key": "BB 11bb",
-      "rest_key": "BU call SB call"
+      "iso_key": "BB iso 11bb",
+      "rest_key": "BU call + SB call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-6bb-raise-bu-call-sb.png",
@@ -24138,8 +22818,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 6bb BU call",
-      "iso_key": "BB 6bb",
-      "rest_key": "BU call SB call BU call"
+      "iso_key": "BB iso 6bb",
+      "rest_key": "BU call + SB call + BU call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-6bb-raise-bu.png",
@@ -24158,8 +22838,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 6bb",
-      "iso_key": "BB 6bb",
-      "rest_key": "BU call SB call"
+      "iso_key": "BB iso 6bb",
+      "rest_key": "BU call + SB call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-6bb-raise-co-call-bu-call-sb.png",
@@ -24178,8 +22858,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 6bb CO call BU call",
-      "iso_key": "BB 6bb",
-      "rest_key": "BU call SB call CO call BU call"
+      "iso_key": "BB iso 6bb",
+      "rest_key": "BU call + SB call + CO call + BU call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-6bb-raise-co-call-bu.png",
@@ -24198,8 +22878,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 6bb CO call",
-      "iso_key": "BB 6bb",
-      "rest_key": "BU call SB call CO call"
+      "iso_key": "BB iso 6bb",
+      "rest_key": "BU call + SB call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-6bb-raise-co-call-sb.png",
@@ -24218,8 +22898,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 6bb CO call",
-      "iso_key": "BB 6bb",
-      "rest_key": "BU call SB call CO call"
+      "iso_key": "BB iso 6bb",
+      "rest_key": "BU call + SB call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-6bb-raise-sb.png",
@@ -24238,8 +22918,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 6bb",
-      "iso_key": "BB 6bb",
-      "rest_key": "BU call SB call"
+      "iso_key": "BB iso 6bb",
+      "rest_key": "BU call + SB call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-8.5bb-raise-bu-call-sb.png",
@@ -24258,8 +22938,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 8.5bb BU call",
-      "iso_key": "BB 8.5bb",
-      "rest_key": "BU call SB call BU call"
+      "iso_key": "BB iso 8.5bb",
+      "rest_key": "BU call + SB call + BU call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-8.5bb-raise-bu.png",
@@ -24278,8 +22958,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 8.5bb",
-      "iso_key": "BB 8.5bb",
-      "rest_key": "BU call SB call"
+      "iso_key": "BB iso 8.5bb",
+      "rest_key": "BU call + SB call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-8.5bb-raise-co-call-bu-call-sb.png",
@@ -24298,8 +22978,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 8.5bb CO call BU call",
-      "iso_key": "BB 8.5bb",
-      "rest_key": "BU call SB call CO call BU call"
+      "iso_key": "BB iso 8.5bb",
+      "rest_key": "BU call + SB call + CO call + BU call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-8.5bb-raise-co-call-bu.png",
@@ -24318,8 +22998,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 8.5bb CO call",
-      "iso_key": "BB 8.5bb",
-      "rest_key": "BU call SB call CO call"
+      "iso_key": "BB iso 8.5bb",
+      "rest_key": "BU call + SB call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-8.5bb-raise-co-call-sb.png",
@@ -24338,8 +23018,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 8.5bb CO call",
-      "iso_key": "BB 8.5bb",
-      "rest_key": "BU call SB call CO call"
+      "iso_key": "BB iso 8.5bb",
+      "rest_key": "BU call + SB call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb-8.5bb-raise-sb.png",
@@ -24358,8 +23038,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "BU call SB call BB 8.5bb",
-      "iso_key": "BB 8.5bb",
-      "rest_key": "BU call SB call"
+      "iso_key": "BB iso 8.5bb",
+      "rest_key": "BU call + SB call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-bu-call-sb-call-bb.png",
@@ -24422,26 +23102,6 @@
       "rest_key": null
     },
     {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-4bb-raise-bb-12bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-sb-4bb-raise-bb-12bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 12.0,
-      "threebet_size_raw": "12.0bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "SB 4bb BB 12bb CO call",
-      "iso_key": "SB 4bb",
-      "rest_key": "BB 12bb CO call"
-    },
-    {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-4bb-raise-bb-12bb-raise-sb.png",
       "facing": "limp3b",
       "hero": "SB",
@@ -24458,28 +23118,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 4bb BB 12bb",
-      "iso_key": "SB 4bb",
-      "rest_key": "BB 12bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-4bb-raise-bb-99.5bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-sb-4bb-raise-bb-99.5bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 4.0,
-      "iso_size_raw": "4.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "SB 4bb BB 99.5bb CO call",
-      "iso_key": "SB 4bb",
-      "rest_key": "BB 99.5bb CO call"
+      "iso_key": "SB iso 4bb",
+      "rest_key": "BB 3bet 12bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-4bb-raise-bb-99.5bb-raise-sb.png",
@@ -24498,8 +23138,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 4bb BB 99.5bb",
-      "iso_key": "SB 4bb",
-      "rest_key": "BB 99.5bb"
+      "iso_key": "SB iso 4bb",
+      "rest_key": "BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-4bb-raise-bb.png",
@@ -24518,28 +23158,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 4bb",
-      "iso_key": "SB 4bb",
+      "iso_key": "SB iso 4bb",
       "rest_key": "sima"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-6.5bb-raise-bb-19.5bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-sb-6.5bb-raise-bb-19.5bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 19.5,
-      "threebet_size_raw": "19.5bb",
-      "iso_size": 6.5,
-      "iso_size_raw": "6.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "SB 6.5bb BB 19.5bb CO call",
-      "iso_key": "SB 6.5bb",
-      "rest_key": "BB 19.5bb CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-6.5bb-raise-bb-19.5bb-raise-sb.png",
@@ -24558,28 +23178,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 6.5bb BB 19.5bb",
-      "iso_key": "SB 6.5bb",
-      "rest_key": "BB 19.5bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-6.5bb-raise-bb-99.5bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-sb-6.5bb-raise-bb-99.5bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 6.5,
-      "iso_size_raw": "6.5bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "SB 6.5bb BB 99.5bb CO call",
-      "iso_key": "SB 6.5bb",
-      "rest_key": "BB 99.5bb CO call"
+      "iso_key": "SB iso 6.5bb",
+      "rest_key": "BB 3bet 19.5bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-6.5bb-raise-bb-99.5bb-raise-sb.png",
@@ -24598,8 +23198,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 6.5bb BB 99.5bb",
-      "iso_key": "SB 6.5bb",
-      "rest_key": "BB 99.5bb"
+      "iso_key": "SB iso 6.5bb",
+      "rest_key": "BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-6.5bb-raise-bb.png",
@@ -24618,28 +23218,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 6.5bb",
-      "iso_key": "SB 6.5bb",
+      "iso_key": "SB iso 6.5bb",
       "rest_key": "sima"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-9bb-raise-bb-27bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-sb-9bb-raise-bb-27bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 27.0,
-      "threebet_size_raw": "27.0bb",
-      "iso_size": 9.0,
-      "iso_size_raw": "9.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "SB 9bb BB 27bb CO call",
-      "iso_key": "SB 9bb",
-      "rest_key": "BB 27bb CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-9bb-raise-bb-27bb-raise-sb.png",
@@ -24658,28 +23238,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 9bb BB 27bb",
-      "iso_key": "SB 9bb",
-      "rest_key": "BB 27bb"
-    },
-    {
-      "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-9bb-raise-bb-99.5bb-raise-co-call-sb.png",
-      "facing": "limp3b",
-      "hero": "SB",
-      "villain": "CO",
-      "villain2": null,
-      "stack": 100,
-      "title": "co-limp-sb-9bb-raise-bb-99.5bb-raise-co-call-sb",
-      "open_size": 0.5,
-      "open_size_raw": "0.5bb",
-      "threebet_size": 99.5,
-      "threebet_size_raw": "99.5bb",
-      "iso_size": 9.0,
-      "iso_size_raw": "9.0bb",
-      "c4b_size": null,
-      "c4b_size_raw": null,
-      "seq_key": "SB 9bb BB 99.5bb CO call",
-      "iso_key": "SB 9bb",
-      "rest_key": "BB 99.5bb CO call"
+      "iso_key": "SB iso 9bb",
+      "rest_key": "BB 3bet 27bb"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-9bb-raise-bb-99.5bb-raise-sb.png",
@@ -24698,8 +23258,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 9bb BB 99.5bb",
-      "iso_key": "SB 9bb",
-      "rest_key": "BB 99.5bb"
+      "iso_key": "SB iso 9bb",
+      "rest_key": "BB jam"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-9bb-raise-bb.png",
@@ -24718,7 +23278,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB 9bb",
-      "iso_key": "SB 9bb",
+      "iso_key": "SB iso 9bb",
       "rest_key": "sima"
     },
     {
@@ -24738,8 +23298,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB call BB 10bb CO call",
-      "iso_key": "BB 10bb",
-      "rest_key": "SB call CO call"
+      "iso_key": "BB iso 10bb",
+      "rest_key": "SB call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-call-bb-10bb-raise-sb.png",
@@ -24758,7 +23318,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB call BB 10bb",
-      "iso_key": "BB 10bb",
+      "iso_key": "BB iso 10bb",
       "rest_key": "SB call"
     },
     {
@@ -24778,8 +23338,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB call BB 5bb CO call",
-      "iso_key": "BB 5bb",
-      "rest_key": "SB call CO call"
+      "iso_key": "BB iso 5bb",
+      "rest_key": "SB call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-call-bb-5bb-raise-sb.png",
@@ -24798,7 +23358,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB call BB 5bb",
-      "iso_key": "BB 5bb",
+      "iso_key": "BB iso 5bb",
       "rest_key": "SB call"
     },
     {
@@ -24818,8 +23378,8 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB call BB 7.5bb CO call",
-      "iso_key": "BB 7.5bb",
-      "rest_key": "SB call CO call"
+      "iso_key": "BB iso 7.5bb",
+      "rest_key": "SB call + CO call"
     },
     {
       "file": "0.5bbante-6max/100/limp/CO/co-limp-sb-call-bb-7.5bb-raise-sb.png",
@@ -24838,7 +23398,7 @@
       "c4b_size": null,
       "c4b_size_raw": null,
       "seq_key": "SB call BB 7.5bb",
-      "iso_key": "BB 7.5bb",
+      "iso_key": "BB iso 7.5bb",
       "rest_key": "SB call"
     },
     {

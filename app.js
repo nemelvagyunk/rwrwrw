@@ -330,6 +330,9 @@ function renderVillain(){
   }
 
   if (SEQ_MODES.includes(selected.mode)){
+    const lbl=document.createElement("span");
+    lbl.className="grpLabel"; lbl.textContent="limpelt:";
+    grp.appendChild(lbl);
     const vlist=selected.mode==="faceiso"?faceisoVillains(selected.stack,selected.hero):limperVillains(selected.mode,selected.stack);
     for (const p of vlist){
       grp.appendChild(makeVillainBtn(p, selected.villain===p, false));
@@ -364,7 +367,7 @@ function renderSize(){
       const isoKeys=[...new Set(entries.map(e=>e.ch.iso_key||"?"))]
         .sort((a,b)=>(a.length-b.length)||a.localeCompare(b));
       for (const ik of isoKeys){
-        const btn=mkBtn("iso "+ik.toLowerCase(),()=>{ selected.limpIso=ik; selected.limpSeq=null; syncHash(); refreshAll(); },"size opensize");
+        const btn=mkBtn(ik.toLowerCase(),()=>{ selected.limpIso=ik; selected.limpSeq=null; syncHash(); refreshAll(); },"size opensize");
         setBtnState(btn,{sel:selected.limpIso===ik,dis:false});
         els.sizeGroup.appendChild(btn);
       }
@@ -372,7 +375,7 @@ function renderSize(){
         .sort((a,b)=>((a.ch.rest_key||"").length-(b.ch.rest_key||"").length)||String(a.ch.rest_key||"").localeCompare(String(b.ch.rest_key||"")));
       if (selected.limpIso&&chosen.length){
         const div=document.createElement("span");
-        div.className="divider"; div.textContent="|"; div.setAttribute("aria-hidden","true");
+        div.className="grpLabel"; div.textContent=(selected.mode==="limp3b"?"→ 3bet:":"→ vonal:");
         els.sizeGroup.appendChild(div);
         for (const e of chosen){
           const lab=String(e.ch.rest_key||"sima").toLowerCase();

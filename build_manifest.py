@@ -73,12 +73,19 @@ def parse_chart(base, stack, folder, folder_open, file_path):
             mid = ' '.join(_slab(s) for s in steps[1:])
             seqk = mid if mid else 'sima'
             nr = len(rsteps)
-            # ketlepcsos navigaciohoz: iso_key = az iso lepes cimkeje,
-            # rest_key = a tobbi lepes (iso nelkul) cimkeje
+            # ketlepcsos navigaciohoz: beszedes cimkek
+            #   iso_key: 'BB iso 11bb' | rest_key: 'SB 3bet 33bb + BB call' / 'SB jam' / 'sima'
+            def _sz(v): return 'jam' if v >= 60 else ('%g' % v) + 'bb'
             iso_step = rsteps[0] if nr >= 1 else None
-            restk = ' '.join(_slab(s) for s in steps[1:] if s is not iso_step)
-            if not restk: restk = 'sima'
-            isok = _slab(iso_step) if iso_step is not None else None
+            isok = (iso_step[0].upper() + ' iso ' + _sz(iso_step[2])) if iso_step is not None else None
+            parts = []
+            for s in steps[1:]:
+                if s is iso_step: continue
+                if s[1] == 'R':
+                    parts.append(s[0].upper() + (' jam' if s[2] >= 60 else ' 3bet ' + _sz(s[2])))
+                else:
+                    parts.append(s[0].upper() + ' call')
+            restk = ' + '.join(parts) if parts else 'sima'
             if nr == 0:
                 return E(facing='vsopenlimp', villain=limper, open_size=0.5, seq_key=seqk)
             if nr == 1:
@@ -93,6 +100,11 @@ def parse_chart(base, stack, folder, folder_open, file_path):
                 for s in steps:
                     if s is tb: break
                     if s[0] == tb[0]: return None  # limp/overlimp/call utani 3bet: kihagyva
+                # a 3bet/jam moge senki nem callolhat a hero dontese elott
+                seen_tb = False
+                for s in steps:
+                    if s is tb: seen_tb = True; continue
+                    if seen_tb and s[1] == 'C': return None  # hideg-3bet-call vonal: kihagyva
                 return E(facing='limp3b', villain=limper, open_size=0.5,
                          iso_size=rsteps[0][2], threebet_size=rsteps[1][2], seq_key=seqk,
                          iso_key=isok, rest_key=restk)
