@@ -27,7 +27,8 @@ def parse_new_name(base):
 def _raw(v): return (f"{v}bb" if v is not None else None)
 
 def _entry(file_path, facing, hero, villain, stack, title,
-           villain2=None, open_size=None, threebet_size=None, iso_size=None, c4b_size=None, seq_key=None):
+           villain2=None, open_size=None, threebet_size=None, iso_size=None, c4b_size=None, seq_key=None,
+           iso_key=None, rest_key=None):
     U = lambda p: (p.upper() if p else None)
     return {
         "file": file_path, "facing": facing,
@@ -38,6 +39,7 @@ def _entry(file_path, facing, hero, villain, stack, title,
         "iso_size": iso_size, "iso_size_raw": _raw(iso_size),
         "c4b_size": c4b_size, "c4b_size_raw": _raw(c4b_size),
         "seq_key": seq_key,
+        "iso_key": iso_key, "rest_key": rest_key,
     }
 
 def parse_chart(base, stack, folder, folder_open, file_path):
@@ -61,6 +63,7 @@ def parse_chart(base, stack, folder, folder_open, file_path):
         first = steps[0] if steps else None
         if first and first[1] == 'C':
             limper = first[0]
+            if hero == limper: return None  # csak olyan chart kell, ahol NEM a hero az openlimper
             rsteps = [s for s in steps if s[1] == 'R']
 
             def _slab(s):
@@ -70,17 +73,29 @@ def parse_chart(base, stack, folder, folder_open, file_path):
             mid = ' '.join(_slab(s) for s in steps[1:])
             seqk = mid if mid else 'sima'
             nr = len(rsteps)
+            # ketlepcsos navigaciohoz: iso_key = az iso lepes cimkeje,
+            # rest_key = a tobbi lepes (iso nelkul) cimkeje
+            iso_step = rsteps[0] if nr >= 1 else None
+            restk = ' '.join(_slab(s) for s in steps[1:] if s is not iso_step)
+            if not restk: restk = 'sima'
+            isok = _slab(iso_step) if iso_step is not None else None
             if nr == 0:
                 return E(facing='vsopenlimp', villain=limper, open_size=0.5, seq_key=seqk)
             if nr == 1:
                 if hero == limper:
                     return E(facing='faceiso', villain=rsteps[0][0], open_size=0.5,
-                             iso_size=rsteps[0][2], seq_key=seqk)
+                             iso_size=rsteps[0][2], seq_key=seqk, iso_key=isok, rest_key=restk)
                 return E(facing='vsiso', villain=limper, open_size=0.5,
-                         iso_size=rsteps[0][2], seq_key=seqk)
+                         iso_size=rsteps[0][2], seq_key=seqk, iso_key=isok, rest_key=restk)
             if nr == 2:
+                # csak COLD 3bet: a 3betelonek nem volt korabbi onkentes akcioja
+                tb = rsteps[1]
+                for s in steps:
+                    if s is tb: break
+                    if s[0] == tb[0]: return None  # limp/overlimp/call utani 3bet: kihagyva
                 return E(facing='limp3b', villain=limper, open_size=0.5,
-                         iso_size=rsteps[0][2], threebet_size=rsteps[1][2], seq_key=seqk)
+                         iso_size=rsteps[0][2], threebet_size=rsteps[1][2], seq_key=seqk,
+                         iso_key=isok, rest_key=restk)
             return None  # 3+ raise: nincs hozza nezet
         # fallback (nem limp-kezdetu nev a limp mappaban): regi viselkedes
         firstp = steps[0][0] if steps else None

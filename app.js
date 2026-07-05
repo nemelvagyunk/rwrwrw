@@ -22,6 +22,14 @@ const HERO_POS_BY_MODE = {
   limp3b:     ["UTG","HJ","CO","BU","SB","BB"],
 };
 const VSOPENLIMP_VILLAINS = ["UTG","HJ","CO","BU"];
+// a limper-gombok (ki limpelt) csak azok, amikhez van chart a manifestben
+function limperVillains(mode,stack){
+  const set=new Set();
+  for (const [h,villains] of Object.entries((index[mode]||{})[String(stack)]||{}))
+    for (const v of Object.keys(villains)) if (v!=="_") set.add(v);
+  const list=[...set].sort((a,b)=>(POS_ORDER[a]??9)-(POS_ORDER[b]??9));
+  return list.length?list:VSOPENLIMP_VILLAINS;
+}
 const faceisoVillains_unused=null;
 function faceisoVillains(stack,hero){
   if(!stack||!hero)return["UTG","HJ","CO","BU","SB","BB"];
@@ -68,7 +76,7 @@ const els = {
 
 let manifest = [];
 let index = {};
-let selected = { mode:null, stack:100, hero:null, villain:null, villain2:null, openSize:null, threebetSize:null, betSize:null, limpSeq:null };
+let selected = { mode:null, stack:100, hero:null, villain:null, villain2:null, openSize:null, threebetSize:null, betSize:null, limpSeq:null, limpIso:null };
 
 function showError(msg){ els.status.textContent=msg; els.miniHeader.classList.add("visible"); }
 function clearError(){ els.miniHeader.classList.remove("visible"); }
@@ -221,7 +229,7 @@ function renderMode(){
     }
   } else {
     if (els.row0divider) els.row0divider.style.display="";
-    for (const m of [{key:"vsopenlimp",label:"Vs limp"},{key:"vsiso",label:"Vs iso"},{key:"faceiso",label:"L v iso"},{key:"limp3b",label:"L 3bet"}]){
+    for (const m of [{key:"vsopenlimp",label:"Vs limp"},{key:"vsiso",label:"Vs iso"},{key:"limp3b",label:"L 3bet"}]){
       const btn=mkBtn(m.label,()=>{
         selected.mode=m.key;
         applyModeDefaults(m.key);
@@ -271,7 +279,7 @@ function renderHero(){
     const btn=mkBtn(p,()=>{
       if (isBBinOpen) return;
       selected.hero = (selected.hero===p) ? null : p;
-      selected.threebetSize=null; selected.betSize=null; selected.limpSeq=null;
+      selected.threebetSize=null; selected.betSize=null; selected.limpSeq=null; selected.limpIso=null;
       syncHash(); refreshAll();
     },"hero");
     setBtnState(btn,{sel:selected.hero===p,dis:isBBinOpen});
@@ -322,7 +330,7 @@ function renderVillain(){
   }
 
   if (SEQ_MODES.includes(selected.mode)){
-    const vlist=selected.mode==="faceiso"?faceisoVillains(selected.stack,selected.hero):VSOPENLIMP_VILLAINS;
+    const vlist=selected.mode==="faceiso"?faceisoVillains(selected.stack,selected.hero):limperVillains(selected.mode,selected.stack);
     for (const p of vlist){
       grp.appendChild(makeVillainBtn(p, selected.villain===p, false));
     }
@@ -340,7 +348,7 @@ function renderVillain(){
     if (selected.mode==="3bet" && selected.villain){
       selected.hero = defaultHero3bet(selected.villain);
     }
-    selected.betSize=null; selected.limpSeq=null;
+    selected.betSize=null; selected.limpSeq=null; selected.limpIso=null;
     syncHash(); refreshAll();
   };
 }
@@ -348,13 +356,39 @@ function renderVillain(){
 function renderSize(){
   els.sizeGroup.innerHTML="";
   if (SEQ_MODES.includes(selected.mode)&&selected.villain&&selected.hero&&selected.stack){
-    const seqs=Object.keys((((index[selected.mode]||{})[String(selected.stack)]||{})[selected.hero]||{})[selected.villain]||{}).filter(k=>k!=="_")
-      .sort((a,b)=>(a.length-b.length)||a.localeCompare(b));
-    for (const sq of seqs){
-      const label=sq.includes('-')?sq.replace(/-([0-9]+(?:[.][0-9]+)?bb)/g," $1").replace(/-/g," ").toLowerCase():sq.toLowerCase();
-      const btn=mkBtn(label,()=>{ selected.limpSeq=sq; syncHash(); refreshAll(); },"size");
-      setBtnState(btn,{sel:selected.limpSeq===sq,dis:false});
-      els.sizeGroup.appendChild(btn);
+    const sub=(((index[selected.mode]||{})[String(selected.stack)]||{})[selected.hero]||{})[selected.villain]||{};
+    const entries=Object.keys(sub).filter(k=>k!=="_").map(k=>({seq:k,ch:sub[k]}));
+    const twoStep=(selected.mode==="vsiso"||selected.mode==="limp3b");
+    if (twoStep){
+      // 1. lepes: iso valasztas; 2. lepes: csak az adott iso variansai
+      const isoKeys=[...new Set(entries.map(e=>e.ch.iso_key||"?"))]
+        .sort((a,b)=>(a.length-b.length)||a.localeCompare(b));
+      for (const ik of isoKeys){
+        const btn=mkBtn("iso "+ik.toLowerCase(),()=>{ selected.limpIso=ik; selected.limpSeq=null; syncHash(); refreshAll(); },"size opensize");
+        setBtnState(btn,{sel:selected.limpIso===ik,dis:false});
+        els.sizeGroup.appendChild(btn);
+      }
+      const chosen=entries.filter(e=>(e.ch.iso_key||"?")===selected.limpIso)
+        .sort((a,b)=>((a.ch.rest_key||"").length-(b.ch.rest_key||"").length)||String(a.ch.rest_key||"").localeCompare(String(b.ch.rest_key||"")));
+      if (selected.limpIso&&chosen.length){
+        const div=document.createElement("span");
+        div.className="divider"; div.textContent="|"; div.setAttribute("aria-hidden","true");
+        els.sizeGroup.appendChild(div);
+        for (const e of chosen){
+          const lab=String(e.ch.rest_key||"sima").toLowerCase();
+          const btn=mkBtn(lab,()=>{ selected.limpSeq=e.seq; syncHash(); refreshAll(); },"size");
+          setBtnState(btn,{sel:selected.limpSeq===e.seq,dis:false});
+          els.sizeGroup.appendChild(btn);
+        }
+      }
+    } else {
+      const seqs=entries.map(e=>e.seq).sort((a,b)=>(a.length-b.length)||a.localeCompare(b));
+      for (const sq of seqs){
+        const label=sq.includes('-')?sq.replace(/-([0-9]+(?:[.][0-9]+)?bb)/g," $1").replace(/-/g," ").toLowerCase():sq.toLowerCase();
+        const btn=mkBtn(label,()=>{ selected.limpSeq=sq; syncHash(); refreshAll(); },"size");
+        setBtnState(btn,{sel:selected.limpSeq===sq,dis:false});
+        els.sizeGroup.appendChild(btn);
+      }
     }
   } else if (SEQ_MODES.includes(selected.mode)){
   } else if (selected.mode==="limp"&&selected.hero&&selected.stack){
@@ -566,10 +600,21 @@ function applyDefaultsF4b(){
 }
 function applyDefaultsOpenLimp(){
   if (!SEQ_MODES.includes(selected.mode)||!selected.stack||!selected.hero||!selected.villain) return;
-  if (selected.limpSeq==null){
-    const keys=Object.keys((((index[selected.mode]||{})[String(selected.stack)]||{})[selected.hero]||{})[selected.villain]||{}).filter(k=>k!=="_")
+  const sub=(((index[selected.mode]||{})[String(selected.stack)]||{})[selected.hero]||{})[selected.villain]||{};
+  const entries=Object.keys(sub).filter(k=>k!=="_").map(k=>({seq:k,ch:sub[k]}));
+  if (!entries.length) return;
+  if (selected.mode==="vsiso"||selected.mode==="limp3b"){
+    const isoKeys=[...new Set(entries.map(e=>e.ch.iso_key||"?"))]
       .sort((a,b)=>(a.length-b.length)||a.localeCompare(b));
-    if (keys.length>0) selected.limpSeq=keys[0];
+    if (selected.limpIso==null||!isoKeys.includes(selected.limpIso)) selected.limpIso=isoKeys[0];
+    if (selected.limpSeq==null||((sub[selected.limpSeq]||{}).iso_key||"?")!==selected.limpIso){
+      const chosen=entries.filter(e=>(e.ch.iso_key||"?")===selected.limpIso)
+        .sort((a,b)=>((a.ch.rest_key||"").length-(b.ch.rest_key||"").length)||String(a.ch.rest_key||"").localeCompare(String(b.ch.rest_key||"")));
+      if (chosen.length) selected.limpSeq=chosen[0].seq;
+    }
+  } else if (selected.limpSeq==null){
+    const keys=entries.map(e=>e.seq).sort((a,b)=>(a.length-b.length)||a.localeCompare(b));
+    selected.limpSeq=keys[0];
   }
 }
 function applyDefaultsLimp(){
@@ -642,11 +687,11 @@ function applyModeDefaults(mode){
   } else if (mode==="c4b"){
     selected.hero="BB"; selected.villain=null; selected.villain2=null;
   } else if (mode==="vsopenlimp"||mode==="vsiso"||mode==="limp3b"){
-    selected.hero="BB"; selected.villain="HJ"; selected.villain2=null;
+    selected.hero="BB"; selected.villain=(limperVillains(mode,selected.stack)[0]||"HJ"); selected.villain2=null;
   } else if (mode==="faceiso"){
     selected.hero="HJ"; selected.villain=null; selected.villain2=null;
   }
-  selected.openSize=null; selected.threebetSize=null; selected.betSize=null; selected.limpSeq=null;
+  selected.openSize=null; selected.threebetSize=null; selected.betSize=null; selected.limpSeq=null; selected.limpIso=null;
 }
 
 function resetAll(){
@@ -668,6 +713,7 @@ function syncHash(){
   if (threebetSize!=null) p.set("ts",String(threebetSize));
   if (betSize!=null)   p.set("bs",String(betSize));
   if (limpSeq)         p.set("lq",limpSeq);
+  if (selected.limpIso) p.set("li",selected.limpIso);
   const h=p.toString();
   if (h!==window.location.hash.replace(/^#/,"")) window.history.replaceState(null,"","#"+h);
 }
